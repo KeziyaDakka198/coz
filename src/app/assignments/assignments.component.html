@@ -1,0 +1,114 @@
+<div class="head">
+    <app-header></app-header>
+</div>
+<div class="home">
+    <p style="padding:15px 20px">Exams</p>
+    <mat-card class="home1">
+        <mat-card class="home2">
+            <mat-card-content >
+                <div>
+                    <b><p>please select the option below to get the results.</p></b>
+                <span class="attende">
+                    
+                    <select> 
+                        <option>Batch Code:Batch Name</option>
+                        <option value="Batch 1K2125:No.1">Batch 1K2125:No.1</option>
+                        <option value="Batch 4D4147:No.2">Batch 4D4147:No.2</option>
+                        <option value="Batch 12F4155:No.3">Batch 12F4155:No.3</option>
+                        <option value="Batch 5A2463:No.4">Batch 5A2463:No.4</option>
+                      </select>
+                </span>
+                <span  class="attende">
+                    <input type="text" placeholder="Batch Start Date">
+                </span>
+                <span  class="attende">
+                                    
+                    <select>
+                        <option valu> Program Code:Program Name</option>
+                        <option value="Program 1D2125:Data Science">Program 1D2125:Data Science</option>
+                        <option value="Program 1F2125:MySQL">Program 1F2125:MySQL</option>
+                        <option value="Program 2E2128:Web Development">Program 2E2128:Web Development</option>
+                        <option value="Program 1D2125:PHP">Program 1D2125:PHP</option>
+                        <option value="Program 2E2124:BI">Program 2E2124:BI</option>
+                        <option value="Program 3F2126:Data Science">Program 3F2126:Data Science</option>
+                      </select>
+                    </span>
+                    <span  class="attende">
+                        <select>
+                            <option> Course 1C4575:PHP Basics</option>
+                            <option>Course 4D1245:XML</option>
+                            <option>Course 5A7845:Error Handling</option>
+                            <option>Course Z1Q2665:Analytics</option>
+                            <option>Course:Data Visualization</option>
+                            <option>Course:Dashboards</option>
+                          </select>   
+                    </span>
+                </div>  
+                
+            </mat-card-content> 
+        </mat-card>
+        <div class="home3">
+            <p align='right'><button mat-raise-button type="submit" >Create Assignment</button></p>
+        </div> 
+        <mat-card>
+        
+        <mat-card-content>
+            <div>
+                <table class="table">
+                    <ng-container>
+                        <th>
+                            <div>Actions</div>
+                            <div><mat-icon>done</mat-icon><mat-icon>cross</mat-icon>
+                            </div>
+                        </th>
+                    </ng-container>
+                    <ng-container>
+                        <th>
+                            <div>Assignment Name</div>
+                            <div><input type="text" placeholder="Enter Exam-Name"></div>
+                        </th>
+                    </ng-container>
+                    <ng-container>
+                        <th>
+                            <div>Total Marks</div>
+                            <div><input type="text" placeholder="Enter Marks"></div>
+                        </th>
+                    </ng-container>
+                    <ng-container>
+                        <th>
+                            <div>Date</div>
+                            <div><input type="date"></div>
+                        </th>
+                    </ng-container>
+                    <ng-container>
+                        <th>
+                            <div>Time</div>
+                            <div><input type="text"> </div>
+                        </th>
+                    </ng-container>
+                    <ng-container>
+                        <th>
+                            <div>Upload File</div>
+                            <div><mat-icon>upload</mat-icon></div>
+                        </th>
+                    </ng-container>
+                </table>
+            </div>
+        </mat-card-content>
+        </mat-card>
+        <mat-card>
+            <mat-card-content>
+                <table>
+                    <th>Students</th>
+                    <th>Marks</th>
+                    <button style="border:0px;background:white;color:blue">cancel</button>
+                    <p style="height:8px " align="right"><button>Save & Close</button></p>
+
+                </table>
+            </mat-card-content>
+        </mat-card>
+    </mat-card>
+</div>
+
+   
+

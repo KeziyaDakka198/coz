@@ -1,0 +1,172 @@
+<div class="head">
+    <app-header></app-header>
+</div>
+<div class="home">
+    <p style="padding:15px 20px">Home</p>
+    <mat-card class="home1">
+        <mat-card-content>
+            <mat-tab-group>
+                <mat-tab label="Batches & Programs"> 
+                    <mat-card class="home2">
+                        <div style="margin:10px"><p><b> Please select the options below to get results</b></p></div>
+                        
+                    <mat-card-content>
+                        <div>
+                            <span class="attende">
+                                <select> 
+                                    <option>Batch Code</option>
+                                    <option value="Batch 1K2125:No.1">Batch 1K2125:No.1</option>
+                                    <option value="Batch 4D4147:No.2">Batch 4D4147:No.2</option>
+                                    <option value="Batch 12F4155:No.3">Batch 12F4155:No.3</option>
+                                    <option value="Batch 5A2463:No.4">Batch 5A2463:No.4</option>
+                                  </select>
+                            </span>
+                            
+                            <span  class="attende">
+                                <input type="text" placeholder="Batch Start Date">
+                            </span>
+                            <span  class="attende">
+                                
+                            <select>
+                                <option value="Program 1D2125:Data Science">Program 1D2125:Data Science</option>
+                                <option value="Program 1F2125:MySQL">Program 1F2125:MySQL</option>
+                                <option value="Program 2E2128:Web Development">Program 2E2128:Web Development</option>
+                                <option value="Program 1D2125:PHP">Program 1D2125:PHP</option>
+                                <option value="Program 2E2124:BI">Program 2E2124:BI</option>
+                                <option value="Program 3F2126:Data Science">Program 3F2126:Data Science</option>
+                              </select>
+                            </span>   
+                          </div>
+                         </mat-card-content>
+                    </mat-card>
+                
+                <mat-card class="home1">
+                    <mat-card-content>
+                        <table class="table">
+                            
+                            <ng-container>
+                                <th>Code</th>
+                            </ng-container>
+                            <ng-container>
+                                <th>Course Name</th> 
+            
+                            </ng-container>
+                            <ng-container>
+                                <th>Topics Completed</th>
+                            </ng-container>
+                            <ng-container>
+                                <th>Topics in Progress</th>
+                            </ng-container>
+            
+                            <ng-container>
+                                <th>Course Completion Percentage</th>
+                            </ng-container>
+            
+                        </table>
+                    </mat-card-content>
+                </mat-card>
+                </mat-tab>
+                <mat-tab label="Attendance">
+                    <mat-card class="home2">
+                        <div style="margin:10px"><p><b> Please select the options below to get results</b></p></div>
+                        
+                    <mat-card-content>
+                        <div>
+                            <span class="attende">
+                                <select> 
+                                    <option>Batch Code</option>
+                                    <option value="Batch 1K2125:No.1">Batch 1K2125:No.1</option>
+                                    <option value="Batch 4D4147:No.2">Batch 4D4147:No.2</option>
+                                    <option value="Batch 12F4155:No.3">Batch 12F4155:No.3</option>
+                                    <option value="Batch 5A2463:No.4">Batch 5A2463:No.4</option>
+                                  </select>
+                            </span>
+                            
+                            <span  class="attende">
+                                <input type="text" placeholder="Batch Start Date">
+                            </span>
+                            <span  class="attende">
+                                
+                            <select>
+                                <option> Program Code:Program Name</option>
+                                <option value="Program 1D2125:Data Science">Program 1D2125:Data Science</option>
+                                <option value="Program 1F2125:MySQL">Program 1F2125:MySQL</option>
+                                <option value="Program 2E2128:Web Development">Program 2E2128:Web Development</option>
+                                <option value="Program 1D2125:PHP">Program 1D2125:PHP</option>
+                                <option value="Program 2E2124:BI">Program 2E2124:BI</option>
+                                <option value="Program 3F2126:Data Science">Program 3F2126:Data Science</option>
+                              </select>
+                            </span>
+                            <span  class="attende">
+                                <select>
+                                    <option> Course 1C4575:PHP Basics</option>
+                                    <option>Course 4D1245:XML</option>
+                                    <option>Course 5A7845:Error Handling</option>
+                                    <option>Course Z1Q2665:Analytics</option>
+                                    <option>Course:Data Visualization</option>
+                                    <option>Course:Dashboards</option>
+                                  </select>   
+                            </span>   
+                          </div>
+        
+                         </mat-card-content>
+                    </mat-card>
+                    <mat-card>
+                        <mat-card-content>
+                          <div class="but1">
+                            <span><input type="date" class="date">
+                            </span>
+                             <span><button mat-raise-button class="date" type="submit"><p style="height:7px" align="right">Add Topic</p></button>
+                            </span>
+                          </div>
+                        </mat-card-content>
+                    </mat-card>
+                    <mat-card class="home1">
+                        <mat-card-content>
+                            <table class="table">
+                                
+                                <ng-container>
+                                    <th>
+                                        <div>Actions</div>
+                                        <div class="text"><mat-icon>done</mat-icon><mat-icon>close</mat-icon></div>
+                                    </th>
+                                </ng-container>
+                                <ng-container>
+                                    <th>
+                                        <div>Topic Name<mat-icon></mat-icon></div>
+                                        <div class="text">
+                                            <select>
+                                                <option>search</option>
+                                                <option>Variables and operators</option>
+                                                <option>Learn PHP variables</option>
+                                                <option>Error Handling</option>
+                                                <option>Loops in PHP</option>
+                                            </select>
+                                        </div>
+                                    </th>
+                                </ng-container>
+                                <ng-container>
+                                    <th>
+                                        <div>Topic Percentage Covered<mat-icon></mat-icon></div>
+                                        <div class="text"><input matInput type="text" placeholder="Enter Percentage Completed"></div>
+                                    </th>
+                                </ng-container>
+                            </table>
+                        </mat-card-content>
+                    </mat-card>
+                    <mat-card class="home1">
+                        <mat-card-content>
+                            <div>
+                                <table class="table1">
+                                    <th class="table2">Students</th>
+                                    <th class="table2">Attendance</th>   
+                                </table>
+                            </div>    
+                        </mat-card-content>
+                    </mat-card> 
+                </mat-tab>
+            </mat-tab-group>
+        </mat-card-content>
+            
+    </mat-card>
+    

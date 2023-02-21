@@ -1,0 +1,41 @@
+.home{
+    background:rgb(214, 232, 236);
+    height:85%;
+}
+#date{
+    margin:1px;
+    border:1px solid;
+    height:20px;
+}
+
+.but1{
+
+    height:20px;
+
+}
+.home2{
+    margin:3px;
+    background: rgba(158, 201, 216, 0.762);
+}
+.attende{
+    display:inline-table;
+    margin:0px 10px;
+    padding:3px;
+}
+
+
+.table {
+    width: 100%;
+    background: rgba(158, 201, 216, 0.762);
+    height:auto;
+  }
+
+.table1{
+    width:100%;
+    background:rgba(209, 207, 207, 0.736);
+    height:auto;
+    
+  }
+.table2{
+    padding:10px;
+}

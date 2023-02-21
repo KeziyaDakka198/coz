@@ -1,0 +1,63 @@
+.body{
+    background: rgba(158, 201, 216, 0.762);
+    height:100%;
+}
+.head{
+    height:15%;
+    
+}
+.header{
+    background:rgb(95, 71, 117);;
+}
+.heading{
+    background-color: rgb(95, 71, 117);
+    background:rgba(130, 130, 137, 0.182);
+}
+.img{
+    height:30px;
+    width:200px;
+    background:rgb(130,130,137, 0.182);
+    color:white;
+}
+
+.nav{
+    
+    display: inline-block;
+    min-width:100px;
+    height:30px;
+    width:150px;
+    background:rgb(95, 71, 117);
+    padding:2px;
+    margin:1px;
+    
+}
+
+.icon{
+    font-size:15px;
+    height: 10px;
+    width:10px;
+    color:white;    
+}
+
+.home{
+    background:rgb(214, 232, 236);
+    height:85%;
+}
+.home1{
+    margin:5px 5px 0px 5px;
+}
+.home2{
+    margin:3px;
+    background: rgba(158, 201, 216, 0.762);
+}
+.attende{
+    display:inline-table;
+    margin:0px 10px;
+    padding:3px;
+    
+}
+.mat-tab{
+    min-width:50px!important;
+    padding: 0px!important;
+    margin: 0px!important;
+}

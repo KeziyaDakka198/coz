@@ -1,0 +1,33 @@
+.body{
+    
+    margin:10px;
+
+}
+.container{
+    height:420px;
+    width:400px;
+    padding:10px;
+    margin: 5% 38%;
+    background:rgb(47, 53, 83); 
+}
+.img{
+    height:50px;
+    width:350px;
+    background:rgb(47, 53, 83);
+}
+.details{
+    height:50px;
+    width:350px;
+    background:rgb(13, 16, 30);
+}
+.detail{
+    height:50px;
+    width:350px;
+    background-color: rgb(93, 93, 202);
+    
+    
+}
+.main{
+    padding:10px;
+}
+
